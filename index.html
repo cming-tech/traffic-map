@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>台灣交通事故輿情大數據搜尋儀表板</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        body, html { margin: 0; padding: 0; height: 100%; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+        #map { width: 100%; height: 100%; }
+        #info-box {
+            position: absolute; top: 10px; left: 10px; z-index: 1000;
+            background: white; padding: 15px; border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2); width: 300px;
+            max-height: 85vh; overflow-y: auto;
+        }
+
+        /* 🌟 新增：搜尋篩選控制區的精美樣式 */
+        .search-container {
+            margin: 12px 0;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            border-left: 4px solid #0275d8;
+        }
+        .search-label { font-size: 12px; font-weight: bold; color: #555; display: block; margin-bottom: 5px; }
+        .search-select {
+            width: 100%; padding: 8px; border-radius: 4px;
+            border: 1px solid #ccc; font-size: 13px; font-weight: bold; color: #333;
+            outline: none; cursor: pointer;
+        }
+
+        .stats-container { margin-top: 15px; border-top: 1px solid #eee; padding-top: 10px; }
+        .stats-title { font-size: 14px; font-weight: bold; color: #333; margin-bottom: 8px; }
+        #info-box .stats-row { display: flex; justify-content: space-between; font-size: 13px; padding: 4px 0; border-bottom: 1px dashed #f5f5f5; }
+        #info-box .stats-count { background: #e1f5fe; color: #0275d8; padding: 2px 8px; border-radius: 12px; font-size: 11px; font-weight: bold; }
+        #info-box .high-alert { background: #ffebee; color: #d9534f; }
+
+        .news-btn {
+            display: inline-block; background: #0275d8; color: white !important;
+            text-decoration: none; padding: 8px 12px; margin-top: 8px;
+            border-radius: 4px; font-size: 12px; font-weight: bold;
+            text-align: center; width: 90%;
+        }
+        .news-btn:hover { background: #025aa5; }
+    </style>
+</head>
+<body>
+
+    <div id="info-box">
+        <h3 style="margin:0 0 5px 0; color: #333; font-size: 16px;">📊 台灣交通重大輿情儀表板</h3>
+        <p style="font-size:11px; color:#666; margin:0; line-height: 1.4;">整合 Google 新聞即時情報，動態切換分析特定重大違規風險分布。</p>
+
+        <div class="search-container">
+            <label class="search-label" for="categorySelect">🔍 請選擇欲查詢的交通事故類型：</label>
+            <select id="categorySelect" class="search-select">
+                <option value="drug">⚠️ 毒品驅動駕駛 (毒駕)</option>
+                <option value="drunk">🍺 酒精影響駕駛 (酒駕)</option>
+                <option value="elderly">👴 高齡/高齡駕駛事故</option>
+            </select>
+        </div>
+
+        <div id="total-markers" style="font-size:13px; font-weight:bold; color:#d9534f; margin-top:5px;">載入中...</div>
+
+        <div class="stats-container">
+            <div class="stats-title">📋 當前類型 - 各縣市能見度排行</div>
+            <div id="stats-list"></div>
+        </div>
+    </div>
+
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+        const LeafletMap = window.L;
+        const map = LeafletMap.map('map').setView([23.7, 121.0], 8);
+
+        LeafletMap.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+
+        // 建立一個圖層口袋，用來管理地圖上的標記，方便每次切換選單時「一鍵清空舊紅點」
+        const markerGroup = LeafletMap.layerGroup().addTo(map);
+
+        // 用來暫存從後端拿到的整張大表格資料
+        let globalDatabase = null;
+
+        // 🌟 核心功能：負責把特定類別的資料畫上地圖與統計排行
+        function renderDashboard(category) {
+            // 1. 先清空上一個類別留在地圖上的舊紅點
+            markerGroup.clearLayers();
+
+            const currentListData = globalDatabase[category] || [];
+            document.getElementById('total-markers').innerHTML = `📍 本主題共偵測到：${currentListData.length} 起即時輿情`;
+
+            const locationCounts = {};
+
+            // 2. 重新繪製新類別的標記
+            currentListData.forEach(function(item) {
+                const marker = LeafletMap.marker([item.緯度, item.經度]);
+
+                const content = `
+                    <div style='width: 250px; font-size:13px; line-height:1.6;'>
+                        <b style='color:#0275d8; font-size:14px;'>🚨 重大交通輿情情報</b><br><br>
+                        <b>事件摘要：</b>${item.新聞標題}<br>
+                        <b>推估地點：</b>${item.發生地點}<br>
+                        <b>情報時間：</b>${item.發生時間}<br>
+                        <a href="${item.新聞網址}" target="_blank" class="news-btn">🔗 點我閱讀新聞原文報導</a>
+                    </div>
+                `;
+                marker.bindPopup(content);
+                markerGroup.addLayer(marker); // 將紅點裝進群組口袋中
+
+                // 統計縣市次數
+                const regionName = item.發生地點.substring(0, 3);
+                if (locationCounts[regionName]) {
+                    locationCounts[regionName] += 1;
+                } else {
+                    locationCounts[regionName] = 1;
+                }
+            });
+
+            // 3. 重新計算並生成排行榜
+            const sortedRegions = Object.entries(locationCounts).sort((a, b) => b[1] - a[1]);
+            let statsHtml = "";
+            sortedRegions.forEach(regionArray => {
+                const rName = regionArray[0];
+                const rCount = regionArray[1];
+                const alertClass = rCount >= 2 ? "stats-count high-alert" : "stats-count";
+
+                statsHtml += `
+                    <div class="stats-row">
+                        <span>📍 ${rName}</span>
+                        <span class="${alertClass}">${rCount} 筆報導</span>
+                    </div>
+                `;
+            });
+            document.getElementById('stats-list').innerHTML = statsHtml || '<div style="color:#999;font-size:12px;">暫無數據</div>';
+        }
+
+        // 載入多功能 JSON 資料庫
+        fetch('clean_data.json?v=' + new Date().getTime())
+            .then(response => response.json())
+            .then(database => {
+                globalDatabase = database;
+
+                // 預設一進網頁，先顯示「毒駕 (drug)」的畫面
+                renderDashboard("drug");
+
+                // 🌟 監聽下拉選單：當使用者切換選項時，自動啟動大腦重新渲染
+                document.getElementById('categorySelect').addEventListener('change', function(e) {
+                    renderDashboard(e.target.value);
+                });
+            })
+            .catch(err => console.error("綜合資料庫載入失敗：", err));
+    </script>
+</body>
+</html>
