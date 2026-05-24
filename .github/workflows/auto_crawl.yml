@@ -1,0 +1,35 @@
+name: 台灣交通輿情大數據天天自動爬蟲機制
+
+on:
+  schedule:
+    # 這裡代表每天台灣時間凌晨 00:00 (格林威治時間 16:00) 自動清醒執行
+    - cron: '0 16 * * *'
+  workflow_dispatch: # 這行可以讓你在 GitHub 網頁上手動點擊隨時發動爬蟲
+
+jobs:
+  build_and_crawl:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 1. 悄悄下載最新的專案程式碼
+      uses: actions/checkout@v3
+
+    - name: 2. 在雲端電腦上安裝 Python 3.10 環境
+      uses: actions/setup-python@v4
+      with:
+        python-backend: '3.10'
+
+    - name: 3. 一鍵安裝爬蟲與 GPS 換算所需的所有工具包
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests beautifulsoup4 geopy
+
+    - name: 4. 點火！強制執行我們的爬蟲程式
+      run: python news_spider.py
+
+    - name: 5. 自動將洗好的全新 clean_data.json 塞回倉庫存檔並發布網站
+      run: |
+        git config --local user.email "actions@github.com"
+        git config --local user.name "GitHub Cloud Robot"
+        git add clean_data.json
+        git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 雲端機器人自動化：已同步全台最新重大交通輿情數據" && git push)
