@@ -11,7 +11,6 @@
         body, html { margin: 0; padding: 0; height: 100%; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: #1a1a1a; }
         #map { width: 100%; height: 100%; }
 
-        /* 面板整體改為符合黑夜科技風的酷炫深色調 */
         #info-box {
             position: absolute; top: 10px; left: 10px; z-index: 1000;
             background: rgba(30, 30, 30, 0.95); padding: 15px; border-radius: 8px;
@@ -19,9 +18,9 @@
             max-height: 85vh; overflow-y: auto; color: #fff;
             border: 1px solid #333; backdrop-filter: blur(5px);
         }
-        .search-container { margin: 12px 0; padding: 10px; background: #2a2a2a; border-radius: 6px; border-left: 4px solid #0275d8; }
-        .search-label { font-size: 12px; font-weight: bold; color: #aaa; display: block; margin-bottom: 5px; }
-        .search-select { width: 100%; padding: 8px; border-radius: 4px; border: 1px solid #444; background: #222; font-size: 13px; font-weight: bold; color: #fff; outline: none; cursor: pointer; }
+        .search-container { margin: 10px 0; padding: 10px; background: #2a2a2a; border-radius: 6px; border-left: 4px solid #0275d8; }
+        .search-label { font-size: 11px; font-weight: bold; color: #aaa; display: block; margin-bottom: 5px; }
+        .search-select { width: 100%; padding: 6px; border-radius: 4px; border: 1px solid #444; background: #222; font-size: 13px; font-weight: bold; color: #fff; outline: none; cursor: pointer; }
         .stats-container { margin-top: 15px; border-top: 1px solid #333; padding-top: 10px; }
         .stats-title { font-size: 14px; font-weight: bold; color: #eee; margin-bottom: 8px; }
 
@@ -40,21 +39,32 @@
 
     <div id="info-box">
         <h3 style="margin:0 0 5px 0; color: #ff6b6b; font-size: 16px;">🌌 全台交通輿情大數據監控中心</h3>
-        <p style="font-size:11px; color:#aaa; margin:0; line-height: 1.4;">動態整合雲端情報。點擊排行榜縣市可快速縮放定位，右上角可切換高科技黑夜模式與熱度圖。</p>
+        <p style="font-size:11px; color:#aaa; margin:0; line-height: 1.4;">動態整合時間與空間篩選矩陣。點擊排行榜縣市可快速縮放定位該區。</p>
 
         <div class="search-container">
             <label class="search-label" for="categorySelect">🔍 監控目標切換：</label>
             <select id="categorySelect" class="search-select">
+                <option value="total" selected>📊 全類型綜合統計 (毒/酒/高齡)</option>
                 <option value="drug">⚠️ 毒品驅動駕駛 (毒駕)</option>
                 <option value="drunk">🍺 酒精影響駕駛 (酒駕)</option>
                 <option value="elderly">👴 高齡/高齡駕駛事故</option>
             </select>
         </div>
 
+        <div class="search-container" style="border-left-color: #00b0ff;">
+            <label class="search-label" for="timeSelect">📅 輿情時間情報篩選：</label>
+            <select id="timeSelect" class="search-select">
+                <option value="all">🌐 顯示全部歷史紀錄 (30天內)</option>
+                <option value="3">🔥 近 3 天內超即時輿情</option>
+                <option value="7">🕒 近 7 天內近期輿情</option>
+                <option value="14">📅 近 14 天內雙週輿情</option>
+            </select>
+        </div>
+
         <div id="total-markers" style="font-size:13px; font-weight:bold; color:#ff6b6b; margin-top:5px;">載入中...</div>
 
         <div class="stats-container">
-            <div class="stats-title">📋 各縣市風險能見度排行 (點選定位)</div>
+            <div class="stats-title">📋 篩選結果 - 各縣市能見度排行</div>
             <div id="stats-list"></div>
         </div>
     </div>
@@ -68,54 +78,65 @@
     <script>
         const LeafletMap = window.L;
 
-        // 🌟 核心擴充一：定義三種極致外觀的地圖圖層 (標準、暗黑科技、實景衛星)
         const standardGrid = LeafletMap.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OSM' });
         const darkTech = LeafletMap.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', { attribution: '© CartoDB' });
         const satelliteWorld = LeafletMap.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', { attribution: '© Esri' });
 
-        // 初始化地圖，預設直接啟用「黑夜科技風 (darkTech)」
         const map = LeafletMap.map('map', {
             center: [23.7, 121.0],
             zoom: 8,
             layers: [darkTech]
         });
 
-        // 建立管理口袋
         const markerClusterGroup = LeafletMap.markerClusterGroup();
-        // 🌟 核心擴充二：建立獨立的熱度圖圖層口袋
         const heatmapLayer = LeafletMap.layerGroup();
 
-        // 幫右上角做出超級帥氣的「圖層切換面板」
-        const baseMaps = {
-            "🌌 科技暗黑風": darkTech,
-            "🗺️ 標準白地圖": standardGrid,
-            "🛰️ 實景衛星圖": satelliteWorld
-        };
-        const overlayMaps = {
-            "📌 獨立新聞地標": markerClusterGroup,
-            "🔥 動態風險熱度圖": heatmapLayer
-        };
+        const baseMaps = { "🌌 科技暗黑風": darkTech, "🗺️ 標準白地圖": standardGrid, "🛰️ 實景衛星圖": satelliteWorld };
+        const overlayMaps = { "📌 獨立新聞地標": markerClusterGroup, "🔥 動態風險熱度圖": heatmapLayer };
         LeafletMap.control.layers(baseMaps, overlayMaps, { collapsed: false, position: 'topright' }).addTo(map);
 
-        // 先把所有疊點與熱度口袋預設掛上地圖
         map.addLayer(markerClusterGroup);
         map.addLayer(heatmapLayer);
 
         let globalDatabase = null;
 
-        function renderDashboard(category) {
+        function renderDashboard(category, daysLimit) {
             markerClusterGroup.clearLayers();
-            heatmapLayer.clearLayers(); // 清空上一個主題的舊熱度
+            heatmapLayer.clearLayers();
 
-            const currentListData = globalDatabase[category] || [];
-            document.getElementById('total-markers').innerHTML = `🚨 當前監測到：${currentListData.length} 起重大輿情`;
+            // 🌟 核心修改：如果使用者選擇 "total"，就把大口袋裡的所有分類陣列全部打包融合！
+            let rawListData = [];
+            if (category === "total") {
+                // 將 drug, drunk, elderly 三個陣列全部撈出來，用 concat 融合成一個巨大的清單
+                Object.keys(globalDatabase).forEach(function(key) {
+                    rawListData = rawListData.concat(globalDatabase[key]);
+                });
+            } else {
+                rawListData = globalDatabase[category] || [];
+            }
+
+            const now = new Date();
+
+            // 時間過濾邏輯
+            const filteredListData = rawListData.filter(function(item) {
+                if (daysLimit === "all") return true;
+                if (!item.發生時間 || item.發生時間.includes("近期")) return false;
+
+                const eventDate = new Date(item.發生時間);
+                const timeDiff = now.getTime() - eventDate.getTime();
+                const diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
+
+                return diffDays <= parseInt(daysLimit);
+            });
+
+            document.getElementById('total-markers').innerHTML = `🚨 當前監測到：${filteredListData.length} 起符合篩選輿情`;
 
             const locationCounts = {};
             const firstCoordinates = {};
-            const heatPoints = []; // 用來收集熱度圖座標的陣列
+            const heatPoints = [];
 
-            currentListData.forEach(function(item) {
-                // 1. 塞入點位
+            // 繪製符合篩選條件的數據
+            filteredListData.forEach(function(item) {
                 const marker = LeafletMap.marker([item.緯度, item.經度]);
                 const content = `
                     <div style='width: 250px; font-size:13px; line-height:1.6; color:#333;'>
@@ -129,10 +150,8 @@
                 marker.bindPopup(content);
                 markerClusterGroup.addLayer(marker);
 
-                // 2. 🌟 收集熱度權重 (經緯度加上發光強度 0.8)
                 heatPoints.push([item.緯度, item.經度, 0.8]);
 
-                // 統計排行榜
                 const regionName = item.發生地點.substring(0, 3);
                 if (locationCounts[regionName]) { locationCounts[regionName] += 1; }
                 else {
@@ -141,11 +160,9 @@
                 }
             });
 
-            // 3. 🌟 生成熱度圖並塞入熱度口袋，設定極其魔幻的亮色發光梯度
+            // 生成熱度
             const heatInstance = LeafletMap.heatLayer(heatPoints, {
-                radius: 35,
-                blur: 20,
-                maxZoom: 10,
+                radius: 35, blur: 20, maxZoom: 10,
                 gradient: { 0.4: 'blue', 0.6: 'cyan', 0.7: 'lime', 0.8: 'yellow', 1.0: 'red' }
             });
             heatInstance.addTo(heatmapLayer);
@@ -156,7 +173,8 @@
             sortedRegions.forEach(regionArray => {
                 const rName = regionArray[0];
                 const rCount = regionArray[1];
-                const alertClass = rCount >= 2 ? "stats-count high-alert" : "stats-count";
+                // 綜合統計時因為總量變大，警戒標準提高到 3 筆以上顯示高能紅色
+                const alertClass = rCount >= 3 ? "stats-count high-alert" : "stats-count";
                 const coords = firstCoordinates[rName];
 
                 statsHtml += `
@@ -166,7 +184,7 @@
                     </div>
                 `;
             });
-            document.getElementById('stats-list').innerHTML = statsHtml || '<div style="color:#aaa;font-size:12px;">暫無數據</div>';
+            document.getElementById('stats-list').innerHTML = statsHtml || '<div style="color:#aaa;font-size:12px;text-align:center;padding:10px;">⚠️ 該篩選區間內暫無交通重大輿情</div>';
         }
 
         window.flyToRegion = function(lat, lng) {
@@ -177,11 +195,20 @@
             .then(response => response.json())
             .then(database => {
                 globalDatabase = database;
-                renderDashboard("drug");
 
-                document.getElementById('categorySelect').addEventListener('change', function(e) {
-                    renderDashboard(e.target.value);
+                const categorySelector = document.getElementById('categorySelect');
+                const timeSelector = document.getElementById('timeSelect');
+
+                // 初始載入：直接展示全新的 "total" 綜合分類
+                renderDashboard(categorySelector.value, timeSelector.value);
+
+                categorySelector.addEventListener('change', function() {
+                    renderDashboard(categorySelector.value, timeSelector.value);
                     map.setView([23.7, 121.0], 8);
+                });
+
+                timeSelector.addEventListener('change', function() {
+                    renderDashboard(categorySelector.value, timeSelector.value);
                 });
             })
             .catch(err => console.error("綜合資料庫載入失敗：", err));
