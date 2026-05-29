@@ -2,20 +2,17 @@ name: 台灣交通輿情大數據天天自動爬蟲機制
 
 on:
   schedule:
-    # 每天台灣時間凌晨 00:00 自動執行
     - cron: '0 16 * * *'
-  workflow_dispatch: # 允許網頁手動點擊執行
+  workflow_dispatch:
 
-# 🌟 新增：設定全域環境變數，提早強制啟用 Node.js 24 頂級引擎
+# 🌟 關鍵核心：把這兩行密碼直接頂在最上層，當作全域環境變數
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   build_and_crawl:
     runs-on: ubuntu-latest
-
     steps:
-    # 🌟 升級：全面採用相容 Node.js 24 的官方最新版套件
     - name: 1. 載入最新的專案程式碼
       uses: actions/checkout@v4
 
