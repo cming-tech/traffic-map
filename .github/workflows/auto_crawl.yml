@@ -2,22 +2,27 @@ name: 台灣交通輿情大數據天天自動爬蟲機制
 
 on:
   schedule:
-    # 這裡代表每天台灣時間凌晨 00:00 (格林威治時間 16:00) 自動清醒執行
+    # 每天台灣時間凌晨 00:00 自動執行
     - cron: '0 16 * * *'
-  workflow_dispatch: # 這行可以讓你在 GitHub 網頁上手動點擊隨時發動爬蟲
+  workflow_dispatch: # 允許網頁手動點擊執行
+
+# 🌟 新增：設定全域環境變數，提早強制啟用 Node.js 24 頂級引擎
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   build_and_crawl:
     runs-on: ubuntu-latest
 
     steps:
-    - name: 1. 悄悄下載最新的專案程式碼
-      uses: actions/checkout@v3
+    # 🌟 升級：全面採用相容 Node.js 24 的官方最新版套件
+    - name: 1. 載入最新的專案程式碼
+      uses: actions/checkout@v4
 
     - name: 2. 在雲端電腦上安裝 Python 3.10 環境
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
-        python-backend: '3.10'
+        python-version: '3.10'
 
     - name: 3. 一鍵安裝爬蟲與 GPS 換算所需的所有工具包
       run: |
