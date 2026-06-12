@@ -1,6 +1,54 @@
 {
   "drug": [
     {
+      "新聞標題": "毒駕拒檢逃逸撞死2行人…車內有安毒檢測陽性 依公共危險、毒品及過失致死罪送辦 - UDN",
+      "新聞網址": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5KQVQ1Slp6Mnp6OFZCX0REZF8wOXUzbmFJWEViQlRlcGJ6TkRyMWFMcmJ6NXZ5X2JkTlU4YktxVzA0aWxheWM1THJtM0tlQ3VJ0gFWQVVfeXFMT1dxeU5iSE96MlBIeFhyRUZrdnJ3V0stVFdGMjh6VVlMWGNPWUtOY1d0MkxNRzNtMHdGUXpxdGNuNUZZWUItMmpGZ1psRUVMYmxONHRVS2c?oc=5",
+      "發生時間": "2026-06-11",
+      "發生地點": "新北市板橋區",
+      "緯度": 25.026234,
+      "經度": 121.4799956
+    },
+    {
+      "新聞標題": "毒駕又無照！他吸「喪失煙彈」撞死老婦、學童重傷 最終判12年7月定讞 - UDN",
+      "新聞網址": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBpYWlkRXpnZS1iTDdRX2VLanRvMDJ6Y2N2TjFZMEpkZVhJSkNZMUFJZEx1YkVQcFVaZ2ROTjVjeko5OVk4YllsMkgxT3hibk520gFWQVVfeXFMTnVYWFdMd0xUOHhqVTQ1V1RNV0NiMXhNYnZjQkJGVGRLVzJydno1QVpkdTRmNEZLVEtQYTl5QWI3UGFDMHR3dl8zdGcwa0VUcEVUSnJBUFE?oc=5",
+      "發生時間": "2026-06-12",
+      "發生地點": "台中市西屯區",
+      "緯度": 24.1823473,
+      "經度": 120.6532681
+    },
+    {
+      "新聞標題": "影／丈夫去醫院就診過馬路遭毒駕男撞死 妻子情緒激動、掩面痛哭 - UDN",
+      "新聞網址": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5aOVBDYnduZzUyS1A0YUV6UzFDMkU0T1FwaEtYU2p5MzM1UnZZWXZ3VnlHakZha0U1djY0QVU4dE5SOEczWV9uR0FxcjlyMHlM0gFWQVVfeXFMUFg1NkgtcHhkby0wOGd1NUFJWGs2Mkxnd2ttalVqeEdnT2lHaDhVM09qV0NpbmZXOG9VUERVVDFtTUpuNDhDSzV6R1ZEVzZHSjNyNlRiS0E?oc=5",
+      "發生時間": "2026-06-12",
+      "發生地點": "高雄市三民區",
+      "緯度": 22.6476949,
+      "經度": 120.2996219
+    },
+    {
+      "新聞標題": "桃園毒駕撞死侯姓行人 相驗結果係車禍造中樞神經休克死亡 - 自由時報",
+      "新聞網址": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBEQU1BMUUtb3gycjFjLWdzSHV5Z3JwY090OHJqdU5ZOUlIc24zQm1sSWh4X2JkV2Vzd1pjamJWWEZOVjJIVGhyTXE0d1FIN01zd3BPLTFtSTZqdUxWWlAxRk5fQXV4NWpJ0gFuQVVfeXFMUEhoVnpOdk9GZFBiVlRMR3RPNTB4NGhyYnAxanpBaUd6eTNZa3ZMelBIRWwxYjJlbFlaSFM0SXFUeUI1RVNVWU1PbElHdDVGQmJfRE5DaV9Sby10b0NIVHpOb3VOOFY1eUg2SVFfLWc?oc=5",
+      "發生時間": "2026-06-12",
+      "發生地點": "桃園市桃園區",
+      "緯度": 24.993923,
+      "經度": 121.30168
+    },
+    {
+      "新聞標題": "又是毒駕害人害己 梧棲區中華發生死亡車禍 造成兩死一傷 - 更生新聞網",
+      "新聞網址": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5JWVQ2WWRsRk9FcXZGWnZLLVhJQ1IzTlpBTzNiZnBzMWRYaXRGRGJWa3REZ3lmaC1tQzhPdUNMOE80cEtXUk5tRWdn?oc=5",
+      "發生時間": "2026-06-12",
+      "發生地點": "新北市板橋區",
+      "緯度": 25.026234,
+      "經度": 121.4799956
+    },
+    {
+      "新聞標題": "國道毒駕死亡車禍今年第1季已2件 高公局：毒駕有上升趨勢 - UDN",
+      "新聞網址": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVmFGczRGQWtFdURKZU00UWllNkROc0hmOFd4eVNEdEF0Q3NBdUgxSmdZWDc1SndVbHhJQXhOWkdKNm1WSG1fSUVVckVlaE55ZXBfZTNSWWtGdWVZeHRGUG9GX2sxLUFXVTl0TUk2S1hrZEFVYkd4b0Jqd1FHTUY1aNIBVkFVX3lxTE94VlZHNHlvQXNCTVpQQXBOUVh0VzhRQUl0R3lDTVJ1bm1FS29NRFJSUFhmSEY1SnVwR1ZqQU5aMktiemdnUHZYelpqeXdCaE1HNTZJV0p3?oc=5",
+      "發生時間": "2026-06-11",
+      "發生地點": "台中市西屯區",
+      "緯度": 24.1823473,
+      "經度": 120.6532681
+    },
+    {
       "新聞標題": "桃園毒駕竄逃撞死2路人 張善政重話：一定究責到底 - UDN",
       "新聞網址": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4yNERtaW9GbWVrMi1NZkNYQUNsLWhNMzZIRDVnQjRWelo0NmFGV21YYU91NWFFV08zNGZaZXRtSHFISHUtc044RF9MMUw3UU1H0gFWQVVfeXFMTzRJTkRHNUFKQU9GRzFhQUdoY05OUFJZMWQyQ19jMm9tZ0dkWTZEQUFER3VQb2sweGp6YVdsbDlGRDRBNXN0R3Vna29kVjFKSDlzc250ZVE?oc=5",
       "發生時間": "2026-06-11",
@@ -9,113 +57,41 @@
       "經度": 121.30168
     },
     {
-      "新聞標題": "高市大寮區仁德路交通事故 警查出毒駕拒測依法偵辦 - 蕃新聞",
-      "新聞網址": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBfdnpGT0JKcWd5bThlS1RRQm81VjVLV284TEh4LU9RRGtqdDNjbC03WFJ5NGszNFZxYW91WDdSSXRWWmowd3JGR294VEVpRTJRLVE?oc=5",
-      "發生時間": "2026-06-11",
-      "發生地點": "台中市西屯區",
-      "緯度": 24.1823473,
-      "經度": 120.6532681
-    },
-    {
-      "新聞標題": "男遭撞飛再被後車輾慘死 驚悚瞬間曝 - 東森新聞",
-      "新聞網址": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBuMGltUDF2cEZ0bVlvUVd5T0IzTmxjelVibG51YzdfTzZaSmtXa2pieG5uRzNYWmlyQWVWckJIVkZjUGtLaGNUcWh3ejNFdjdrTkFUQXdB?oc=5",
-      "發生時間": "2026-06-10",
-      "發生地點": "高雄市三民區",
-      "緯度": 22.6476949,
-      "經度": 120.2996219
-    },
-    {
-      "新聞標題": "快訊／又是毒駕撞死人！新北翁過馬路遭撞飛重輾 女嫌羈押禁見 - TVBS新聞網",
-      "新聞網址": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5VXzVSUWxMT0c4TWJiT25nbE9UZm1ORWhyak5BdWpxY1FtOW4xM3ZDSGNQT1VpYlpjczVaRDZwQ2Vob2JoX1k5WExpZVlsVWs?oc=5",
-      "發生時間": "2026-06-10",
+      "新聞標題": "毒駕男遭追捕撞死2行人後身亡 安非他命檢驗呈陽性反應 - 公視新聞網PNN",
+      "新聞網址": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBGNE9VU2pNYmNlbUdFUThRZE1KYjNneGNsLWs4dEVaUjBoaTJ2RVkwQ3BlRmhITDNaVlJGOHhuWmFQLWd0WFVWVXN2YUc1Tk0?oc=5",
+      "發生時間": "2026-06-12",
       "發生地點": "彰化市",
       "緯度": 24.0807667,
       "經度": 120.5423
+    },
+    {
+      "新聞標題": "三重鬧區「喪屍男」撞電桿後癱倒！警證實檢測結果為毒駕 - 中天新聞網",
+      "新聞網址": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ZcS1ncDVRSG1KdjE3U2l4MFB1ek00ME5Qb0Y1UklYdTVjWXlIUlc4amNpRkpjNFd6bGJhWHJkQUZodnFmbS1QcllraFlFMDMzWUhj?oc=5",
+      "發生時間": "2026-06-12",
+      "發生地點": "新北市三重區",
+      "緯度": 25.061486,
+      "經度": 121.488102
     },
     {
       "新聞標題": "1天近40起毒駕，「喪屍煙彈」淪馬路未爆彈，案件4年飆200倍！ - 地球黃金線",
       "新聞網址": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE13ODY2anMzbmF2VjJFRDV2WjB5SENsMW9MU1NJUUE5ZVo2a1FMaXZfbEwtZHl2aTFkRE41bXVxVktDLTVMQmxCd215bHE?oc=5",
       "發生時間": "2026-05-25",
-      "發生地點": "新北市板橋區",
-      "緯度": 25.026234,
-      "經度": 121.4799956
-    },
-    {
-      "新聞標題": "台中連傳2男吸「喪屍煙彈」毒駕 BMW撞爛、車頭卡橋墩...恍惚到不行 - UDN",
-      "新聞網址": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE12eFYxb0Y5UkF2VVlCTC1RdFJaOTczZy1URjlweWRnR3FlZ0VZOHpRUHpQcnVPS243WlZneUtBZHFBblFhTVh4UThEQWY0akZ40gFWQVVfeXFMTm1ENnBxRVhzWXp6azQtV2VrZVY3dnRrOFNUbWNjU09YTkdBY3FpbnFRcHpibVpyWDd1bDVfWnZSa09xd1BTUWtJcmx3eXd1QUFOd0tFWXc?oc=5",
-      "發生時間": "2026-06-06",
       "發生地點": "台中市西屯區",
       "緯度": 24.1823473,
       "經度": 120.6532681
     },
     {
-      "新聞標題": "政院拍板加重毒駕刑責草案 致重傷、致死者沒收涉案車輛 - 公視新聞網PNN",
-      "新聞網址": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE40cktKUkdya2txcV9naU5Ec25HRGVrV1lORHhjN1JqWnNRM2g0eU5VZTVmMkdmTk9LeWNqdGFqdlpBbExmWFZMVDJHYlVGUVk?oc=5",
+      "新聞標題": "疑似毒駕...台中梧棲轎車失控撞樹翻覆 車上2人魂斷 - 台視新聞網",
+      "新聞網址": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE0zdFdQMzZxM0M2NjN3VnNsUmI3UE9lRmNuSzJVVjRvMlhCVUM5ZHFSQ1pxMDdqQTFBU3V2ZHlHTHliVEpnTmVuTWRTT2NPbjFrMFllcHhBOA?oc=5",
       "發生時間": "2026-06-11",
       "發生地點": "高雄市三民區",
       "緯度": 22.6476949,
       "經度": 120.2996219
     },
     {
-      "新聞標題": "疑毒駕釀禍！小客車失控撞飛2路人送醫命危 車內搜出疑似毒品 - 壹蘋新聞網",
-      "新聞網址": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5sTnBfTFM3WURHTXluZjk0NlRFbVpfbkRYZndYTFhSaXhyakVqaEFLbmFHckFYYlFMa2NVT0dabXQ3WkhQanlaUTZQblZ3c0ZDcTBXaElJRnU4RnZuNm9LXzgtLVl0ZUdYTXhySUxXaElCMlE4amtxMGhrMHpEN2M?oc=5",
-      "發生時間": "2026-06-11",
-      "發生地點": "彰化市",
-      "緯度": 24.0807667,
-      "經度": 120.5423
-    },
-    {
-      "新聞標題": "毒駕逃避警追 打滑猛撞紅綠燈桿再衝行人 2人OHCA、1人昏迷搶救中 - 自由時報",
-      "新聞網址": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBvR1ZWcXNFTWtRYVY1NnZ2cDkxNmp3TldKRmRMRzZkWWpsdEdCcG8yRTNQaUh4VTk4eUkweWVDUElnU0hERzVtUnZIbDRKVzE2MHU0ZVRNV3BLNUI2cFp4eXplQ1RKSWNf0gFuQVVfeXFMTkJzSnFVM1lLdmNHZ01XTnlVMUlDaE5CaXg2dDc4aWpZdGR3c0Z0Y1d1RUw1cHlMdUlBMmpxSjZXUXdQaml4RjRoaDJFbUNoX212RUI2NE9RalViN2dZNjZRYW1hUV9fU2o3YVFhdEE?oc=5",
-      "發生時間": "2026-06-11",
-      "發生地點": "新北市板橋區",
-      "緯度": 25.026234,
-      "經度": 121.4799956
-    },
-    {
       "新聞標題": "聯結車司機毒駕連撞8車致10人傷 有反覆實行之虞遭檢方聲押獲准 - UDN",
       "新聞網址": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB1eThrdVJPTTlWRWpaeVZfLV9rVDdxemg0ckJBVllDQVhaT1NsLXFVY0tMT3JVaTB5elY0VHRjZVlXdkp0RGxaTzlsWTVESmZt0gFWQVVfeXFMTmc5cTdtelFKV19tSkxXdG9LR0g3RnViU3RuZGRxbzFjRTM5Q05MeEJjNnhXVHZjNnJGMlMxZU9UVy1hZkY0bGQ4dTFkM05Pb1lHdmJBVGc?oc=5",
       "發生時間": "2026-05-28",
-      "發生地點": "台中市西屯區",
-      "緯度": 24.1823473,
-      "經度": 120.6532681
-    },
-    {
-      "新聞標題": "影/中和毒駕男猛撞等紅燈機車 害女騎士慘摔骨折 - PChome Online 新聞",
-      "新聞網址": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNblVYRDBGRjFiaG9BX1dBYktlTUpzbUpzelprcGQyNm56R1NubmJWSExDaXZVUldtN1NDRnprV3RHanYxQ0RNQnpnRHBhbWw4X0c1amFjSTMzdTVfNS1LWThpaXFCSmJGUmh6WEU1WE1acXZIMWlXR1RaYU10SjFBQnRzQmhFM3pGSktN?oc=5",
-      "發生時間": "2026-06-11",
-      "發生地點": "新北市中和區",
-      "緯度": 25.0261548,
-      "經度": 121.5028494
-    },
-    {
-      "新聞標題": "新北中和毒駕車禍釀死傷肇事駕駛遭聲押獲准| 社會 - 中央社 CNA",
-      "新聞網址": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB0b25RSVQ0eFQyTkRoenlOOURRYzNoelF2cmlQc3dkeHBKdHBFLXo1eHJCeFhmckJFWVVaZVVYOG96QmdXbGQzbUE4RlkxZzdTY3JMemlBVjFJd0JZeXc0?oc=5",
-      "發生時間": "2026-05-24",
-      "發生地點": "新北市中和區",
-      "緯度": 25.0261548,
-      "經度": 121.5028494
-    },
-    {
-      "新聞標題": "新北中和毒駕車禍 汽車撞機車碾壓造成1死1傷 - 中央社 CNA",
-      "新聞網址": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5JSE14Q3VsdGZmVUVHNzlaVm5QWHVVcmE3NXpzN3FtMmhpTTNDMC12OUJlMEU5VjhnY21NZzhnYXk1VGJTYW54ZDZsVTJhbG16bHBSWFJwSXVPRWdSOEpr?oc=5",
-      "發生時間": "2026-05-23",
-      "發生地點": "新北市中和區",
-      "緯度": 25.0261548,
-      "經度": 121.5028494
-    },
-    {
-      "新聞標題": "彰化毒駕車禍奪兩命 貨車駕駛經檢方複訊依毒駕致死罪嫌聲押 - UDN",
-      "新聞網址": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9yMXFZaGFMRGhkc3F5Y3M3aDQ0QmNtY2ZJUjVhajU5ak1mVGU4NHpDbzM5Rm95bzloT09XZTNvZ3FzNVFCZWpRVGExZmcyY1JQ0gFWQVVfeXFMUFhoLTMwYTY3ekhfT3VSaFptM1ByYllCbjh4NVNUNWtXLXZPeEF3QWpfYVdHakkybUJtOWFDUXBZU1R0X0tlT1FCV3B6N1l6RVFoNldXYXc?oc=5",
-      "發生時間": "2026-05-23",
-      "發生地點": "彰化市",
-      "緯度": 24.0807667,
-      "經度": 120.5423
-    },
-    {
-      "新聞標題": "又是毒駕？彰化埤頭木棉花道旁離奇車禍 男子自撞而死 - UDN",
-      "新聞網址": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1aZDhSYS15NWQ5czR5QzN2ZmM1V0NHUmE0bVpvTy1EQm9DYms1TGpNblYxQ191aEJfMGloc3NkZUwtSnNWY2dDVnFEeTVnTENI0gFWQVVfeXFMUENlOEpMWEloTlloRkdSSWlod2VRUVhmYWs4WlF2T0FwYlhiVzlzaDhnNVpVb05wc0RZNHkyTzRzVW9tTlJkSXZaanFyVEN0aTlONnk1TkE?oc=5",
-      "發生時間": "2026-05-27",
       "發生地點": "彰化市",
       "緯度": 24.0807667,
       "經度": 120.5423
@@ -123,49 +99,113 @@
   ],
   "drunk": [
     {
-      "新聞標題": "討論牆 | 毒駕酒駕車禍頻傳 賴瑞隆提修法加重10倍罰金 - LINE TODAY",
-      "新聞網址": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBGblpmZ21LSGRvOExLQ2R4ZEQxSl9WZEl1NHA5QjM2OGJuaHpIUjJ0S3l2QmROSU1qN1VraWxBRUtaajFhaWo3cEhxbHZSa0tUV1k5M3JUenVTUDRIMkhmb21GTjQ?oc=5",
-      "發生時間": "2026-06-11",
+      "新聞標題": "南韓職棒傳奇李容圭酒駕肇事導致連環車禍！已自請引退　球團致歉 - NOWnews今日新聞",
+      "新聞網址": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5qNG90VE9iUHRwTm85OG1WUEtDTTVvby11Z19rNFVvOUlyd2F0WXBqZzh3QzlIV2RHUnRHcXZ6dG9rbHZ2Si15Q3ZGUjjSAVJBVV95cUxNSkNFQm1BLWs1el91bzI1TnMtWGxNOTlmXzJsVnZkeGtFMW9aSmpMa2gteDFtWTZRWERtbWc1ejVIR1NjeUg3T2xVVncxNllacGdR?oc=5",
+      "發生時間": "2026-06-12",
       "發生地點": "新北市板橋區",
       "緯度": 25.026234,
       "經度": 121.4799956
     },
     {
-      "新聞標題": "彰化清潔隊員酒駕車禍！隊上又搜出整箱酒 - 鏡週刊Mirror Media",
-      "新聞網址": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBMVkljaHd2eERFTWUxaEtQY3JOa01NZktubFdib2NBMVhmSTVVdVBrOUZfemNzWGFqS2lSeEVvckZXYnhfT3NzVU53OW5BRDlZT05wdV9YU3lJT1k1RWVha1NR0gFiQVVfeXFMUExWSWNod3Z4REVNZTFoS1Bjck5rTU1mS25sV2JvY0ExWGZJNVV1UGs5Rl96Y3NYYWpLaVJ4RW9yRldieF9Pc3NVTnc5bkFEOVlPTnB1X1hTeUlPWTVFZWFrU1E?oc=5",
-      "發生時間": "2026-06-09",
-      "發生地點": "彰化市",
-      "緯度": 24.0807667,
-      "經度": 120.5423
+      "新聞標題": "酒駕男高速撞死垃圾車隨車員台南地院判7年9個月| 法律前線| 社會 - UDN",
+      "新聞網址": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9lc0dGcnoyTTQ1aU5XM2Rwcl92S053dnBEcW1hellkMl9xTi1yT2F2clNGMlBubE9WRE45bzRhWXQ1ZHZZaUc1VmxkdVpZcWJB?oc=5",
+      "發生時間": "2026-06-12",
+      "發生地點": "台中市西屯區",
+      "緯度": 24.1823473,
+      "經度": 120.6532681
     },
     {
-      "新聞標題": "柯志恩市政顧問團大翻車！驚見「兩度酒駕累犯」 - Yahoo新聞",
-      "新聞網址": "https://news.google.com/rss/articles/CBMiugJBVV95cUxPMmtVM0ZGQjNvdjQ5OHpaMmktUlQzVmJNTk5pWkl0RVg5a3ZRLThVcUJSNkFZM2ZpZkdzTEJWX0lVellpRy0tdHhzWFFIOVZVcTBSWTcwOHhfcWdLblMtN01vU29lSGZnYm1qLTYxUXg4b3RLNUNmaWU3THhPaFFQSlJHXzFPNFhJc2xxeGptaXM4b3JCc1lUdmx1cl9JcTVvMEJtSWVWT0JEdWJYMm9QY0hwcDhBRk9uNUVqMEZITnFvNm83ZUtqb1AweWtIS1VjTkhNT2FkcFZ5Z1EyWDM0Ym96M2JqTTRXVG40ZTJPOTl3Uk55eVdOWEJUTERtOHpHXzBQak5qVFU1SWc5OC1ncUpZRlQ0YWQzTV85XzFCVmx4WWp6Z2tZaGJDQngyWEJYUGtZUDlzaTE1UQ?oc=5",
-      "發生時間": "2026-06-11",
+      "新聞標題": "獨家／勵志故事翻車？他從國手到癱瘓再到破全國紀錄 判決書揭「友人酒駕車禍」真相 - Yahoo新聞",
+      "新聞網址": "https://news.google.com/rss/articles/CBMi2ANBVV95cUxNYlYxOHB0YXA1TzNFWmJlRlBCa3gtVmE0cm81WjV3WHpWdzE4SEtxRE5fQVRIX1ZzZDBOb1dyMzFrMVJPVkszQUZfWmpYbU5MQ3hUTkZhT1NmbWpjQmlrYURwMW5TQmZiYWdSSXc2dHJzSXhEOF9PMHRkLVA2RDFsTUNXUVExVGVTUm5jQ25TYUNJVGhGSlY3TG5RSHRSc0EyMkJ4d0NqR3NBZU85bDF3eEFIVmNCUUxqRUhJWGRrR0hhN1E2ejNzYTBiVTUzeXJKUk8zNXFuY1k1bHY5UjJuQ0R0SlJWSUtiLW13b3pxRmd0bTFHalhIM19hNnk0ai1vclE0ZWJFenpkbG1yYWZJMmpNc0NVV043azd5TURvRFNaaUZGV3FOMF9tNEFPVkNYMXQ2S0lZVkpVejhTdDRGdWNBWXpBYmttQ0M4WUpZN2NnT1hXTWhBdF9LbDU0aTZwWlFoaGJOM3NOTFpYTjNvTzR5dng4ZGZWVWpQQkpKaEFtOVpvNE9PUEh0QnNXYmtjdzZFcjZ5UmstSUR2Y0tDNzBmNFpodTNOZ0NsRVRmOVB5anFiSGZjWWFqbkVzSXlmWFVwaXJCR2w1emEyR2VzTkVmc044ZXd2?oc=5",
+      "發生時間": "2026-06-08",
       "發生地點": "高雄市三民區",
       "緯度": 22.6476949,
       "經度": 120.2996219
     },
     {
-      "新聞標題": "酒駕撞死女清潔員「一毛未賠」台南香酥鴨老闆明迎一審宣判 - 台視新聞網",
-      "新聞網址": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CV0FwSTFjSlRha0NXRUdVSF9aS3lSb0hHWnJGai1Ddm9mRGFPeXZFTEhRNWlSZ25rQTBzZDRMOVcxdWZRb1Z1eWtpSGlkOVYzcUpzME9nZw?oc=5",
+      "新聞標題": "新莊酒駕「謎樣偏移」！自撞躺警局前 她手腳皆斷 - 中天新聞網",
+      "新聞網址": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA3Wmg4SXdZb2VneUVzaVUtT1pOWVpHUVAwcFd4ZVE2U0RqWEY3aFA1ZkZnSmRwSFRrckpIZzA4TkdkTGtXR1JnM1dIc0w5MV93QzRr?oc=5",
+      "發生時間": "2026-06-12",
+      "發生地點": "新北市新莊區",
+      "緯度": 25.0261548,
+      "經度": 121.5028494
+    },
+    {
+      "新聞標題": "疑上班偷喝？彰化北斗清潔隊員酒駕車禍　辦公室又搜出整箱啤酒、威士忌 - 三立新聞網SETN.com",
+      "新聞網址": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5IUVRWTzdfV0lTRkF5YXBIUUdwMzlzcE5YZnN4SXJpS2JpcGRyTHJEU096YVZvdDlQcDlWYjItVmdkT3lnanBjX0lrYUhvaEluWlNBcDBncETSAV9BVV95cUxNSmtobGdEX2VVZXZrTklod1psQTRta2txNG5SQTFFZGlCbDdheE1qWHZKUGRXdk9aZWxxR3lTWEIzSDNCT0JQRjJlTHhkMXEyek1oQXpNSm9vcEx6RTk2cw?oc=5",
+      "發生時間": "2026-06-09",
+      "發生地點": "彰化市",
+      "緯度": 24.0807667,
+      "經度": 120.5423
+    },
+    {
+      "新聞標題": "拉斯維加斯酒駕火燒車奪命 前突擊者外接手假釋被駁回 - 民視運動網",
+      "新聞網址": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB1WHA5dE5sTlBDRzhLSllxMl9sZW5UTV9MWGY5aXF2dU04WWVyREFVejZ3TlU4N1dVVXZIUHVvRHFzNnBFNU5FU3dSS2cyYng1alNxLThoX3QyQjNJbWh5VlUzVQ?oc=5",
+      "發生時間": "2026-06-11",
+      "發生地點": "台中市西屯區",
+      "緯度": 24.1823473,
+      "經度": 120.6532681
+    },
+    {
+      "新聞標題": "跑趴酒駕撞死23歲女清潔員鹹酥鴨店老闆「險被圍毆」遭判7年9個月| 司法 - 太報 TaiSounds",
+      "新聞網址": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1HNE5JZF8xYW9QSElRZnVNVThNYzVjYmQ1UTVRaFYxQTlpZTJNQ3ZuakRnTHdUTEF5V2w2X2pCV2s5Nm1kenljSWRVOGNzQW5HYjVPSnV4U3pZY1Rv?oc=5",
+      "發生時間": "2026-06-12",
+      "發生地點": "高雄市三民區",
+      "緯度": 22.6476949,
+      "經度": 120.2996219
+    },
+    {
+      "新聞標題": "柯志恩市政顧問團大翻車！驚見「兩度酒駕累犯」 | 民視新聞網 - LINE TODAY",
+      "新聞網址": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9iRWdJRE92dHhpVUJJei1EcXB3aVZteXZCOXJVNkZuajJNc2tqTXB6a0xlc1FqOGEwSE1XalhEOXkzZGhOQ0NacVJVWDVuYVI2X0ZXb1Jn?oc=5",
       "發生時間": "2026-06-11",
       "發生地點": "彰化市",
       "緯度": 24.0807667,
       "經度": 120.5423
     },
     {
-      "新聞標題": "台南香酥鴨店家酒駕撞死女清潔員 檢求刑10年：司法是來真的 - UDN",
-      "新聞網址": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBSRG80S2pHR1VHWVFILXp6S2VReUNLSThObDFOT3pDQVlHTnk2c1hHaW9aNE0xWEs1OWNFNE0zVVo4dUFVbDcyZ2dSQUJfQnN30gFWQVVfeXFMT1RVVjI0VERfVUJaNzVwbnhfTndDVmxTMWJobDRFWTB2VkFKVE84emVEaVhGNWhaWDRJNU1iaXBUbUM0VWZkUG1aa1VhQnZPYVVKd3ZQd3c?oc=5",
-      "發生時間": "2026-06-10",
+      "新聞標題": "喝到天亮撞死人！瞎掰「我沒開車」險被圍毆　香酥鴨老闆遭求刑10年 - 鏡週刊Mirror Media",
+      "新聞網址": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBzdzA5ZGlXbmFlYU5XbXc3bW9VQ1JYVFZtMVpzUG9wb0ZNd2E4NDgyYU8wcDBQQXd5d0hzVXBjUHlzQ05zcFYwVHRBWVM5UEZHM1NMZXMxY2tEZmfSAWBBVV95cUxOU1NvREJsZnc0c09DMWg5ei1iOW1CMUc2Z00zajZ3Q3RnNmFNQUtoOFlkeEpPUDkwRGNldTRTUEhtUEJYaUNCWlQ1VmVIZGxmdTM2bjhkbkRYaUhsdWNpX1Q?oc=5",
+      "發生時間": "2026-06-11",
       "發生地點": "新北市板橋區",
       "緯度": 25.026234,
       "經度": 121.4799956
     },
     {
+      "新聞標題": "影／酒測值達0.87還對撞 南投警竟放酒駕男離開…警局高層回應了 - UDN",
+      "新聞網址": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE52SFo2NS1hU3RBaW1QdWJuTlZlY1NIS3pTVWtjVmhBS2I0ZnR4Q3BYbjZ6c3E3Z1k3SGpTbzl0aXlocWlOTGFYeUpvV0VlQ2hX0gFWQVVfeXFMT21qbDVucHNCZm1NVXFIWDU5UkkwUDlSdTA0UFcxN1pJcTJUOUp4MDU1OVZ2VXk0UjhqVERlRUNuRldXYVdqU2wtZ0Q0dnNUTjdvaU9RZHc?oc=5",
+      "發生時間": "2026-05-25",
+      "發生地點": "台中市西屯區",
+      "緯度": 24.1823473,
+      "經度": 120.6532681
+    },
+    {
       "新聞標題": "垃圾收完酒駕？北斗清潔隊員酒測0.6 公所將懲處 - 自由時報",
-      "新聞網址": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5fREZBM2QzeHp1S0tvd1l5a0FFTHYtcjVSTWVrN1RiRWJDNldKTHJIa2FmU1RTVERKZ1QybmlaRU8tcXBnRWZYQ25GcVRGc0FVN2twM0Z5cXd4UjdVbE9ENlYxNlhJc2N5ODJUcHJn0gFuQVVfeXFMTl9ERkEzZDN4enVLS293WXlrQUVMdi1yNVJNZWs3VGJFYkM2V0pMckhrYWZTVFNUREpnVDJuaVpFTy1xcGdFZlhDbkZxVEZzQVU3a3AzRnlxd3hSN1VsT0Q2VjE2WElzY3k4MlRwcmc?oc=5",
+      "新聞網址": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1aOXpMNlFMZHE3ZkhqM014cXZqZGZTRHVsMGVsWEZCNFhybERzZTNQd21pdjhsZC1DTXo3cXFUYjAweFVFdHZ2M0Q0X1kxaDVlX2xGbG5HTjRrOTVwcmFwWS1jTGs3d2550gFuQVVfeXFMTl9ERkEzZDN4enVLS293WXlrQUVMdi1yNVJNZWs3VGJFYkM2V0pMckhrYWZTVFNUREpnVDJuaVpFTy1xcGdFZlhDbkZxVEZzQVU3a3AzRnlxd3hSN1VsT0Q2VjE2WElzY3k4MlRwcmc?oc=5",
       "發生時間": "2026-06-09",
+      "發生地點": "高雄市三民區",
+      "緯度": 22.6476949,
+      "經度": 120.2996219
+    },
+    {
+      "新聞標題": "嘉義市深夜酒駕車禍 2男送醫 - 自由時報",
+      "新聞網址": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0tbHJlbW9oeE92UksxbFJNYVFSczlROVVvdjlUR3dFNk01WGhyVUV2RnRYMEVVY3RRVVNvaVYzMEVHdE9HbzYxQ240MkRJbnlEdzl5WE9ncnppZnJLMU9vbTNUbXFva05L0gFuQVVfeXFMTklodnFCdUZQUTctSW83VUE0QWpLMFhaTzhpT21WN3M0dzkteDVfMG5CXzVlX18ySDN1WlB4R3hFam9MT0N3MVhoM0IySE5DUmRrbW1rWF81TmtfcDRZcmdGOUJGeTFOMUs3TTFickE?oc=5",
+      "發生時間": "2026-05-24",
+      "發生地點": "嘉義市",
+      "緯度": 23.4811089,
+      "經度": 120.4535412
+    },
+    {
+      "新聞標題": "九份死亡車禍！遭酒駕男追撞 8旬騎士噴飛送醫不治 - 東森新聞",
+      "新聞網址": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBMM2FjV25Qckx4ZGRUYzA1RGR0QVBJTlJlc0hCZmI4cURxMU5maUhuUGR4UXZZRTA3SlVxd3dicmhGZG1IdFlVR291ZkVzUEwwOU81dmV3?oc=5",
+      "發生時間": "2026-05-21",
+      "發生地點": "新北市板橋區",
+      "緯度": 25.026234,
+      "經度": 121.4799956
+    },
+    {
+      "新聞標題": "影／九份死亡車禍畫面曝光！涉酒駕追撞 81歲老翁卡車底不治 - UDN",
+      "新聞網址": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE41c0ROZnVBOHBjNThWa3hUdTRablRZc3Z1LUVMZkFJeEhqaUN2VUxLa2dKUjA0WURBdGhGU1ZObHA5TkFrZDA5a3c4cFlkeDB30gFWQVVfeXFMTlh1cVdqanVCVUZLZEdiM0g0Y3hnQlNKTGNKZXljMmNCaVgyZTNXTUJFYjBkNkU0NjhxOGtBVktOclpvbmtvQ284T1BfMlFXRGRCNl9rVVE?oc=5",
+      "發生時間": "2026-05-21",
       "發生地點": "台中市西屯區",
       "緯度": 24.1823473,
       "經度": 120.6532681
@@ -177,93 +217,29 @@
       "發生地點": "高雄市三民區",
       "緯度": 22.6476949,
       "經度": 120.2996219
-    },
-    {
-      "新聞標題": "彰南路奪命車禍後警方出手　彰化強力掃蕩毒駕酒駕 - 今傳媒 JNEWS",
-      "新聞網址": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE50bWtPb09MWnZYREVMQVl2RHl2b25XWTlPU19mOXdpQUo5T09QaWVieVJLUW83TW1yM0s4enl1SENfX2xhZGhzMjd2M0xzRlRMLWfSAVJBVV95cUxOdG1rT29PTFp2WERFTEFZdkR5dm9uV1k5T1NfZjl3aUFKOU9PUGllYnlSS1FvN01tcjNLOHp5dUhDX19sYWRoczI3djNMc0ZUTC1n?oc=5",
-      "發生時間": "2026-05-24",
-      "發生地點": "彰化市",
-      "緯度": 24.0807667,
-      "經度": 120.5423
-    },
-    {
-      "新聞標題": "影／酒測值達0.87還對撞 南投警竟放酒駕男離開…警局高層回應了 - UDN",
-      "新聞網址": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE52SFo2NS1hU3RBaW1QdWJuTlZlY1NIS3pTVWtjVmhBS2I0ZnR4Q3BYbjZ6c3E3Z1k3SGpTbzl0aXlocWlOTGFYeUpvV0VlQ2hX0gFWQVVfeXFMT21qbDVucHNCZm1NVXFIWDU5UkkwUDlSdTA0UFcxN1pJcTJUOUp4MDU1OVZ2VXk0UjhqVERlRUNuRldXYVdqU2wtZ0Q0dnNUTjdvaU9RZHc?oc=5",
-      "發生時間": "2026-05-25",
-      "發生地點": "新北市板橋區",
-      "緯度": 25.026234,
-      "經度": 121.4799956
-    },
-    {
-      "新聞標題": "#獨家新婚夫遭酒駕撞輾腿妻控預拌車還「繼續開」｜TVBS新聞 @TVBSNEWS01│TVBS新聞網 - TVBS新聞網",
-      "新聞網址": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1pSWduVGtES3QxSFF0am5XdEo2QUViV3diblVKY2VVZm83TzJxZ001YldDU3N4UnZsVVg5YjBXM0RaN0VtYVhMelI4NHdMV1JzU3EtS3lkam4?oc=5",
-      "發生時間": "2026-06-11",
-      "發生地點": "台中市西屯區",
-      "緯度": 24.1823473,
-      "經度": 120.6532681
-    },
-    {
-      "新聞標題": "嘉義市深夜酒駕車禍 2男送醫 - 自由時報",
-      "新聞網址": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0tbHJlbW9oeE92UksxbFJNYVFSczlROVVvdjlUR3dFNk01WGhyVUV2RnRYMEVVY3RRVVNvaVYzMEVHdE9HbzYxQ240MkRJbnlEdzl5WE9ncnppZnJLMU9vbTNUbXFva05L0gFuQVVfeXFMTklodnFCdUZQUTctSW83VUE0QWpLMFhaTzhpT21WN3M0dzkteDVfMG5CXzVlX18ySDN1WlB4R3hFam9MT0N3MVhoM0IySE5DUmRrbW1rWF81TmtfcDRZcmdGOUJGeTFOMUs3TTFickE?oc=5",
-      "發生時間": "2026-05-24",
-      "發生地點": "嘉義市",
-      "緯度": 23.4811089,
-      "經度": 120.4535412
-    },
-    {
-      "新聞標題": "影／九份死亡車禍畫面曝光！涉酒駕追撞 81歲老翁卡車底不治 - UDN",
-      "新聞網址": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE41c0ROZnVBOHBjNThWa3hUdTRablRZc3Z1LUVMZkFJeEhqaUN2VUxLa2dKUjA0WURBdGhGU1ZObHA5TkFrZDA5a3c4cFlkeDB30gFWQVVfeXFMTlh1cVdqanVCVUZLZEdiM0g0Y3hnQlNKTGNKZXljMmNCaVgyZTNXTUJFYjBkNkU0NjhxOGtBVktOclpvbmtvQ284T1BfMlFXRGRCNl9rVVE?oc=5",
-      "發生時間": "2026-05-21",
-      "發生地點": "彰化市",
-      "緯度": 24.0807667,
-      "經度": 120.5423
-    },
-    {
-      "新聞標題": "九份驚悚車禍！廂型車疑酒駕輾過81歲騎士 失去生命跡象搶救中 - Yahoo新聞",
-      "新聞網址": "https://news.google.com/rss/articles/CBMikANBVV95cUxNQmtLVGlNb1hsOHQteW9uTjFaWVZTeEQ3ZE5DdEtPS3R0dnJmVGphekk1ak5lVlltQWwtNG5YM3ctemNPT2ttdUxaZ3dseWVRU3VYTFl5ZnlCZ3YxUWNJNk83Y1VESk8yX0VmNHotUXdJeEFmVWFDN0ltNTRoY3ZnakNwTzNyTnNqc2pRMjBjLTdXZ255Qks1aXBoU3NHbnpFMHVGYVZDSzhZX0FJb2JaQXhZQXJNWHIzUnhOOFh4RnM3UEZVYWgtNkFxVEVleFJqT2E4MnFZckhDQVJvREVtRTdGMDdTNlZ4dXRXeTJRWDJsajhJMHRxcjJXRE16U19Qc0cwdk5rOHNEMzd3TTZ1TnVMWmZhTGpsYU5EbHltTTBLTklEYk9ZRGZpcFotd2FDUFozbFpYcW5kNGp4cjR1dnozcWxoXzNWXzJjMmJwTkhwbUxDNG9qTVpYemQ5YzBScTZDR25FeUoxRlRyeDY1X0dBYUVqZzFSOFJaZG5LRm9MR2FGT0dnLUxjS21MR1I2?oc=5",
-      "發生時間": "2026-05-21",
-      "發生地點": "新北市板橋區",
-      "緯度": 25.026234,
-      "經度": 121.4799956
-    },
-    {
-      "新聞標題": "九份死亡車禍！遭酒駕男追撞 8旬騎士噴飛送醫不治 - 東森新聞",
-      "新聞網址": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBMM2FjV25Qckx4ZGRUYzA1RGR0QVBJTlJlc0hCZmI4cURxMU5maUhuUGR4UXZZRTA3SlVxd3dicmhGZG1IdFlVR291ZkVzUEwwOU81dmV3?oc=5",
-      "發生時間": "2026-05-21",
-      "發生地點": "台中市西屯區",
-      "緯度": 24.1823473,
-      "經度": 120.6532681
-    },
-    {
-      "新聞標題": "台南濱南路自小客撞倒電桿　駕駛額頭擦傷送醫無毒酒駕 - ETtoday新聞雲",
-      "新聞網址": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9BWXVUeTRhbl9SM3EzRHhPRTFCX2NXaFdObDl5cXNvZldRU0RKLW9FMUt2YlJmLWh5Zm5ueGtBTTh1dS1JZWZpMlFvZEVHcU93bmR4aHhpZC1zc1pNdVHSAWhBVV95cUxPbUl6YWJIZ1JaV1hiSUFTRnA4enNsQTAtY2N5NWFZWW5KWFNRNjA1VHZVTFZ6VjVJcWczYjUtV1J0S3J2U1JsTlpCLV9FUVJhUVNlbEhxMVZOdEczRVJvVTJ4TVhjeUhYVQ?oc=5",
-      "發生時間": "2026-06-08",
-      "發生地點": "高雄市三民區",
-      "緯度": 22.6476949,
-      "經度": 120.2996219
     }
   ],
   "elderly": [
     {
-      "新聞標題": "一場車禍撞出老人駕駛問題！各國高齡駕駛換駕照規定比較 - Yahoo - 汽機車",
-      "新聞網址": "https://news.google.com/rss/articles/CBMikwNBVV95cUxQY2duakdCbS1Zc0NfdF9KdExKYjRwcWlvRG5kU3Z0ZjZHeHZSRHd1VUtwYl9Ebl9JelpmVmIyOTB6Y1F2dndDY1Y5Yk9VaEw5YTJOcUpUUE5XdDhXRkRVbUxfMkQ1SGxEdE5RWUtMOWJNTGk4cEMwVjNLTVZvLVpWTUxsMmxKSHpfOV9FTThRTnBlTWl1TXRYc2VNRzFCNURDRXJvUjhyYUdmRVJDUkR6dzlwTTZod01ZZi1KM1hvcUU1Vkt0VkRMR0xvT1A2dEtqMEdERTM0VWtsSm9fTTBmcVh4RnFJUE51VFhnVm94YXhhdm52V0didmxLdEZvSDJxazBGMW55ejVVRlV6b3czT1I5MDdGWXpISGs4SDVyVjZqSG9hTXFxeFJvazVZV2FObUhPZnA1aHVKaENsNXd0TmZNSUt1Ri02SXdBVEcxMWp6VTQzVWdlbklVeFZtdElKSWhzSDVieU5oRWFEdlFOZi16REp0WnI1eFp4bnJNODNFaXNBQmY4QTh0WkdrT3NqOWJn?oc=5",
-      "發生時間": "2026-06-10",
-      "發生地點": "新北市板橋區",
-      "緯度": 25.026234,
-      "經度": 121.4799956
-    },
-    {
       "新聞標題": "運安會調查三峽4死車禍 揭駕駛操作失當、高齡換照漏洞 - 公視新聞網PNN",
       "新聞網址": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE42N2lEc1lIZnd1SkxmY2x4RkFueU1VZ1pkcER2OVRoX3UtWlcyc3UtWjZKUWVhMU9RVV9XV1F1VmttTF8xZGdyRXpERXpMVzQ?oc=5",
       "發生時間": "2026-05-26",
-      "發生地點": "台中市西屯區",
-      "緯度": 24.1823473,
-      "經度": 120.6532681
+      "發生地點": "新北市板橋區",
+      "緯度": 25.026234,
+      "經度": 121.4799956
     },
     {
       "新聞標題": "運安會三峽車禍調查報告促強化高齡駕駛換照體檢| 生活 - 中央社 CNA",
       "新聞網址": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE90Y3NrdC02Z3dyVXdXTk9XbzRMNzdHT2tZa0UwbHNJQjRXMVdzTFJVd1ZaaDlfakw1VU56d0FGMm1qTEJXUXNPMEZxQ3ZqQjlvWEsyZmJTUnBwdWZmc0s4?oc=5",
       "發生時間": "2026-05-26",
+      "發生地點": "台中市西屯區",
+      "緯度": 24.1823473,
+      "經度": 120.6532681
+    },
+    {
+      "新聞標題": "高齡駕駛新制上路前夕再釀悲劇…去年才換照 7旬翁暴衝撞死騎士 - UDN",
+      "新聞網址": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1SVnNEUENhQkNxZEN1TTBhVzBtQVZwUWJXeFlDQkp5UmxtajNpX1VOZURXZUVOamRrbVNyRnZZMEticjhlcllacXpseWRla3cz0gFWQVVfeXFMTTZZNUZYVXlidUFGcmdzNkgzU2RIYjFVVUVfR0o4TGJYUFlxMzNMMVlaSkd6NFZpMTl3STlYaHlaeHdidFFMWVFRQ0NPTjZ6YXFWcU9sYVE?oc=5",
+      "發生時間": "2026-06-01",
       "發生地點": "高雄市三民區",
       "緯度": 22.6476949,
       "經度": 120.2996219
@@ -277,81 +253,49 @@
       "經度": 120.5423
     },
     {
-      "新聞標題": "高齡駕駛新制上路前夕再釀悲劇…去年才換照 7旬翁暴衝撞死騎士 - UDN",
-      "新聞網址": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1SVnNEUENhQkNxZEN1TTBhVzBtQVZwUWJXeFlDQkp5UmxtajNpX1VOZURXZUVOamRrbVNyRnZZMEticjhlcllacXpseWRla3cz0gFWQVVfeXFMTTZZNUZYVXlidUFGcmdzNkgzU2RIYjFVVUVfR0o4TGJYUFlxMzNMMVlaSkd6NFZpMTl3STlYaHlaeHdidFFMWVFRQ0NPTjZ6YXFWcU9sYVE?oc=5",
-      "發生時間": "2026-06-01",
-      "發生地點": "新北市板橋區",
-      "緯度": 25.026234,
-      "經度": 121.4799956
-    },
-    {
-      "新聞標題": "83歲翁誤踩油門暴衝撞民宅！ 車頭全毀骨折送醫掀高齡駕駛爭議 | CTWANT - LINE TODAY",
-      "新聞網址": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5BSG93WmFOM0tBTmtDWmFTS3lLYW8yYjRWVWlkZWROT0EzcXdSdTlXYmVtWjNGSldCMGpKSFBFaW9HSkR1ZFF5NjZGa3ZBUk9VTGhySlhB?oc=5",
-      "發生時間": "2026-06-07",
-      "發生地點": "台中市西屯區",
-      "緯度": 24.1823473,
-      "經度": 120.6532681
-    },
-    {
       "新聞標題": "一天2起！北市高齡駕駛再出事　撞飛路人瞬間曝光後畫面全斷 - ETtoday新聞雲",
       "新聞網址": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1rMTlwSVRObVBIdHN4eFhOMXV6b0tDdmw0WW9xcmdBeHpDT055R2w2UlhQSGR1cFRXemhWZklaanU5YmZyWHRsYmZLMWVzbndsQ1lJVFlCczhhV0I1dnfSAWhBVV95cUxPMk5tMF9zUlZJcTc4NFNuM3FmckdKdGJJZ1MyR0J3Z3BNTFhxMXJsdTh3NUhlc2JTSDVyTk1ZY2ROS19oeXhEWEtBNE82X3hxLVBfeDNIdmlhSnpfaW9XQUQyQ1lUeGNSNg?oc=5",
       "發生時間": "2026-06-07",
-      "發生地點": "高雄市三民區",
-      "緯度": 22.6476949,
-      "經度": 120.2996219
+      "發生地點": "新北市板橋區",
+      "緯度": 25.026234,
+      "經度": 121.4799956
     },
     {
       "新聞標題": "又是高齡駕駛！台中76歲翁逆向衝撞機車 38歲騎士噴飛不治 - 自由時報",
       "新聞網址": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9TLUpHcXdlNkZ0R0xVMVh3Qjl0U1Q1NGRjYUxncUc5TUpvV1oyb3N6S1lGSlYtRUNHWkplcFZzZ3dIMjJSSTItQW9YVzNJWldYMDVFZFdGSElSa0VYV3QwOWVRR3hlajVU0gFuQVVfeXFMTjJLdURkOXprMkgxN1NoR2lqdWJnbXpNSG1MR1FWUnJncFd1T29pbGRPQWVRaWVLVlRnLTRQY3F0X2RWcjNseTRWMUJ2MmpDWWdEaml2LXVfQ1hPWWh4Wk1BWDNvQzRIM0o3TGRFV1E?oc=5",
       "發生時間": "2026-05-30",
-      "發生地點": "彰化市",
-      "緯度": 24.0807667,
-      "經度": 120.5423
-    },
-    {
-      "新聞標題": "三峽車禍4死12傷調查報告出爐運安會：高齡駕駛操作失控釀禍| 交通 - 太報 TaiSounds",
-      "新聞網址": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBvSU9EWWNxZXE1X05veFk1SDliOHRZdXZqcGZJUFA2dTRJbVJiUGJ4LXVka3VyZ2tuY3JTZmFmYXc5Vi1BZ3YxUnJxT2paVU5vYkMtWU9zRUp3blhv?oc=5",
-      "發生時間": "2026-05-26",
-      "發生地點": "新北市板橋區",
-      "緯度": 25.026234,
-      "經度": 121.4799956
-    },
-    {
-      "新聞標題": "高齡換照5／31上路！高齡駕駛風險升溫 專家提醒這些事 - 《現代保險》雜誌",
-      "新聞網址": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1idUhUZFJ1R1IwZXNhdW5qZTVGYUZNRW1KOW5qdG92NlVRTzVvR0JKRGRJajhRTVV3cWlsYkJEdjRKSldqMUJVd1NTcWJwWGF2dlVJ?oc=5",
-      "發生時間": "2026-05-29",
       "發生地點": "台中市西屯區",
       "緯度": 24.1823473,
       "經度": 120.6532681
     },
     {
-      "新聞標題": "新版高齡換照今上路…台中七旬翁去年就換好照 昨晚開車失控撞死騎士 - UDN",
-      "新聞網址": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5oSFhTbWE5NlhYNnJFeVVpMjhsVmhUeXpNLXJhMWN1ZlJ2aWFzd0d5SjBEWUdvbC03T2tiWlRhUmdaTWlfUGp4S2h4SkYwSmdG0gFWQVVfeXFMTmc3S05Fakh1TGNqU0RIM0VGMEpxdHBzX18yZDFRemM0S2xBVm9yNnhTZFFLdmF4Z0xHRDFxVEZHNGpDU2hBenN0U0x1LUN6NVRKaHpMNEE?oc=5",
-      "發生時間": "2026-05-31",
+      "新聞標題": "高齡換照5／31上路！高齡駕駛風險升溫 專家提醒這些事 - 《現代保險》雜誌",
+      "新聞網址": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1idUhUZFJ1R1IwZXNhdW5qZTVGYUZNRW1KOW5qdG92NlVRTzVvR0JKRGRJajhRTVV3cWlsYkJEdjRKSldqMUJVd1NTcWJwWGF2dlVJ?oc=5",
+      "發生時間": "2026-05-29",
       "發生地點": "高雄市三民區",
       "緯度": 22.6476949,
       "經度": 120.2996219
     },
     {
-      "新聞標題": "雨彈狂炸！北市高齡駕駛打滑失控爆衝 猛撞燈桿行人遭撞飛 - TVBS新聞網",
-      "新聞網址": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBPaXJyV21LeENwVXVZZGp1am9LZ0ptUUJScEp5X0xUYXZvdlNvVV9ENTAtVHpHLTdZdFJIdHM1UXUtaEhlbnV5dVNqdlo1WmM?oc=5",
-      "發生時間": "2026-06-07",
+      "新聞標題": "日本高齡駕駛事故！困平交道、撞車站販賣機 - Yahoo新聞",
+      "新聞網址": "https://news.google.com/rss/articles/CBMirgJBVV95cUxOeEd3OTJDRi1PXzBoODJnUG9xY3F1SXpkWW93NzBDZ0tDQW1aYVBiVGMxdld3N2owRXRsTXQwWHdOS2VDOGRCdFdhblIwanJzdXV2U29fa01jWEFmTFlBZ2VhVUZzakJhbEVLT3pDNXY3eDJPc0ZzSWtmWDNyUEpsZmR2eVlHRGlHQkh6UzBPVHFaUEdJWnZ1MURBMWt6N0cxOXFsMHpVUXlhV2tMR1cyQnVpd3BDU3pYaGtybmRKWVRUdU0yLVlNV0cxclVUcHZVazVaTzhpMHFXVUZ0and6aVJxSGlLNVE3RlVma2RVVU82VS1aQjdoWlB3VHM1RXpiRExJRFhwQnhIcV92RXZwQzJ5ZHRJamMyaTZuQ29tOUo0Qm52UGdDMlcxZWZpUQ?oc=5",
+      "發生時間": "2026-05-23",
       "發生地點": "彰化市",
       "緯度": 24.0807667,
       "經度": 120.5423
     },
     {
-      "新聞標題": "新北三峽4死車禍調查出爐 運安會籲嚴篩高齡駕駛 - UDN",
-      "新聞網址": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5yMHE2Y2VjN3JHZThfZ2J6dkdSdnlTbUpycEhMSnhTZTcyVWtpdjBWQ1JYQnRjamY3ZXNwMDEwSEFONkFjT2R3aGE4RU1ETmZu0gFWQVVfeXFMTkhhcUxmUnNGSDFHaHhjSDhsR3FmUUczYjNXZ0NnQmxxNkNMb2tqd3pNRXRnTlBCbDJZX0xMUG44c2g2N3Exd0l5c1dRSG5DSTRUeFJLT0E?oc=5",
-      "發生時間": "2026-05-27",
+      "新聞標題": "新版高齡換照今上路…台中七旬翁去年就換好照 昨晚開車失控撞死騎士 - UDN",
+      "新聞網址": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5oSFhTbWE5NlhYNnJFeVVpMjhsVmhUeXpNLXJhMWN1ZlJ2aWFzd0d5SjBEWUdvbC03T2tiWlRhUmdaTWlfUGp4S2h4SkYwSmdG0gFWQVVfeXFMTmc3S05Fakh1TGNqU0RIM0VGMEpxdHBzX18yZDFRemM0S2xBVm9yNnhTZFFLdmF4Z0xHRDFxVEZHNGpDU2hBenN0U0x1LUN6NVRKaHpMNEE?oc=5",
+      "發生時間": "2026-05-31",
       "發生地點": "新北市板橋區",
       "緯度": 25.026234,
       "經度": 121.4799956
     },
     {
-      "新聞標題": "高齡駕駛128萬人 圖解換照新制6條件 緩衝期千萬看清楚 - 聯合報數位版",
-      "新聞網址": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9sT0ExVVk5ZVlRZHVKMjV5TnRPV18wdGhfMkEwWVRiQ3FTekhYV29yZFVDLWgyeG4xNThyeEdTNGFJSmpzOTg3cGlUamlOUmFPblN0Vzg2WQ?oc=5",
-      "發生時間": "2026-05-27",
+      "新聞標題": "雨彈狂炸！北市高齡駕駛打滑失控爆衝 猛撞燈桿行人遭撞飛 - TVBS新聞網",
+      "新聞網址": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBPaXJyV21LeENwVXVZZGp1am9LZ0ptUUJScEp5X0xUYXZvdlNvVV9ENTAtVHpHLTdZdFJIdHM1UXUtaEhlbnV5dVNqdlo1WmM?oc=5",
+      "發生時間": "2026-06-07",
       "發生地點": "台中市西屯區",
       "緯度": 24.1823473,
       "經度": 120.6532681
@@ -360,6 +304,38 @@
       "新聞標題": "又是高齡駕駛！台中80歲女連撞32輛汽機車 波及84歲行人送醫 - 自由時報",
       "新聞網址": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5JZjA1Mk1PWG5iZ1ZuVk4tQm5Jb3VReURrWTlfdE5HMEMtdXFwVWRUNGxkSHpnOE1WRUFMQUdWdXY5U1VZLU91MlJOaWRZVl9GZGNWalBmOWptUGpHWFc4eWdCeVRYcFJw0gFuQVVfeXFMTm43aWM2anBFd21QQkw1OUNHNU0xUFhRenVmWF9HX0JfVGdhX19jWUYyTzNXLWpjS3FfVW05VzRTUEtYWTZuOGRkZi1ZOF9vU3dYcF9CajBtMENoVHpwUG92eG1GZGxwSHhUVWs0NHc?oc=5",
       "發生時間": "2026-05-19",
+      "發生地點": "高雄市三民區",
+      "緯度": 22.6476949,
+      "經度": 120.2996219
+    },
+    {
+      "新聞標題": "新北三峽4死車禍調查出爐 運安會籲嚴篩高齡駕駛 - UDN",
+      "新聞網址": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5yMHE2Y2VjN3JHZThfZ2J6dkdSdnlTbUpycEhMSnhTZTcyVWtpdjBWQ1JYQnRjamY3ZXNwMDEwSEFONkFjT2R3aGE4RU1ETmZu0gFWQVVfeXFMTkhhcUxmUnNGSDFHaHhjSDhsR3FmUUczYjNXZ0NnQmxxNkNMb2tqd3pNRXRnTlBCbDJZX0xMUG44c2g2N3Exd0l5c1dRSG5DSTRUeFJLT0E?oc=5",
+      "發生時間": "2026-05-27",
+      "發生地點": "彰化市",
+      "緯度": 24.0807667,
+      "經度": 120.5423
+    },
+    {
+      "新聞標題": "高齡駕駛128萬人 圖解換照新制6條件 緩衝期千萬看清楚 - 聯合報數位版",
+      "新聞網址": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9sT0ExVVk5ZVlRZHVKMjV5TnRPV18wdGhfMkEwWVRiQ3FTekhYV29yZFVDLWgyeG4xNThyeEdTNGFJSmpzOTg3cGlUamlOUmFPblN0Vzg2WQ?oc=5",
+      "發生時間": "2026-05-27",
+      "發生地點": "新北市板橋區",
+      "緯度": 25.026234,
+      "經度": 121.4799956
+    },
+    {
+      "新聞標題": "減少瑞士年長者交通事故 學界：建立駕駛能力分級 - rti.org.tw",
+      "新聞網址": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5zbWNyT2I5N1FPUEYwa21tRjM4Zm5adlptbWNMVmkyZFUwZ2xqc0ZJUWZPUEh2eUNWdWsyam8wdlNUUklhY0NhU2ViWUJ4RVY5bkROTFVndw?oc=5",
+      "發生時間": "2026-05-14",
+      "發生地點": "台中市西屯區",
+      "緯度": 24.1823473,
+      "經度": 120.6532681
+    },
+    {
+      "新聞標題": "快訊／新北成蘆橋嚴重車禍 高齡駕駛碰撞女騎士命危送醫 - TVBS新聞網",
+      "新聞網址": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8wd1czMVJZNXFnSklZR0NnMnNJV1RGczJqNGd4SVFwbkQ2a2EzLTZoaVRkYnF2VzRDZWJLUExCbmhtaFJ0M2tjOXA4TmxRTHc?oc=5",
+      "發生時間": "2026-06-03",
       "發生地點": "高雄市三民區",
       "緯度": 22.6476949,
       "經度": 120.2996219
